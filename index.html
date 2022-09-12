@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript tutorial</title>
+    <!--styling inside the head
+        added a new class-->
+    <style>
+        .container{
+            border: 2px solid red;
+            margin: 15px 30px; 
+            background: cyan;
+            padding: 9px;
+        }
+        
+        .bg-purple{
+            background-color: purple;
+        }
+        .text-color{
+            color:whitesmoke;
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome to this JavaScript Tutorial</h1>
+    <div id="firstContainer" class="container">
+        <button id="click" onclick = "clicked()"> @CLICK ME! </button>
+        <p>A paragraph newly created</p>
+    </div>
+    <div class="container">
+        <p><i>This is a paragraph</i></p>
+    </div>
+    <!--scripting inside html-->
+    <script>
+        //1. Ways to print in JavaScript
+        //console.log("Hello World");
+        //alert("me");
+        //document.write("this is document write"); //AVOID USING THIS
+
+        //2. Javascript console API -> Application Programming Interface
+        console.log("Hello World");
+        // console.warn("this is warning");
+        // console.error("this is an error");
+        // console.assert(4==4); //true
+        // console.assert(4==1); //wrong thus assertion failed
+        //console.clear()
+
+    </script>
+
+    <!--scripting outside html-->
+    <script src="index.js"></script>
+</body>
+</html>
